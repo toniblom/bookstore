@@ -47,6 +47,12 @@ public class Book {
 	public void setPrice(float price) {
 		this.price = price;
 	}
+	public long getId() {
+		return id;
+	}
+	public void setId(long id) {
+		this.id = id;
+	}
 	public Book(String title, String author, int publicationYear, String isbn, double price) {
 		super();
 		this.title = title;
